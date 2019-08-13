@@ -19,3 +19,6 @@ graf_ejemplo
 
 ## Añadir Facets
 
+graf_ejemplo +
+  facet_wrap(~ cyl, nrow = 2, scales = "free_y") + 
+  labs(title = "Caballos de fuerza vs millas por galón por cilindros")
